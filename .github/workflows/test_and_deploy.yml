@@ -88,7 +88,7 @@ jobs:
     secrets: inherit
 
   test_napari:
-    uses: psobolewskiPhD/workflows/.github/workflows/test-dependents.yml@patch-1
+    uses: psobolewskiPhD/workflows/.github/workflows/test-dependents.yml@try-display-0
     with:
       dependency-repo: napari/napari
       dependency-ref: ${{ matrix.napari-version }}
